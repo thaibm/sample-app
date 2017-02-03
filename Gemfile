@@ -7,7 +7,11 @@ end
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails"
 gem "rails", "~> 5.0.1"
+<<<<<<< HEAD
 gem "bcrypt",         "3.1.11"
+=======
+gem 'bcrypt',         '3.1.11'
+>>>>>>> 6fb048b5d6db51f3df8c4da233d5357e0bffe92f
 # Use sqlite3 as the database for Active Record
 # gem "sqlite3"
 # Use bootstrap-sass
