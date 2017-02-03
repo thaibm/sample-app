@@ -19,3 +19,7 @@
 
 # Ignore Byebug command history file.
 .byebug_history
+
+#
+app/assets/stylesheets/users.scss
+app/helpers/users_helper.rb
