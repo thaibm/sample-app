@@ -3,9 +3,9 @@
     <%= link_to "sample app", root_path, id: "logo" %>
     <nav>
       <ul class="nav navbar-nav navbar-right">
-      <li><%= link_to "Home",   root_path %></li>
-        <li><%= link_to "Help", helf_path %></li>
-        <li><%= link_to "Log in", '#' %></li>
+      <li><%= link_to (t ".Home").to_s,   root_path %></li>
+        <li><%= link_to (t ".Help").to_s, helf_path %></li>
+        <li><%= link_to (t ".Login").to_s, '#' %></li>
       </ul>
     </nav>
   </div>

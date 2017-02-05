@@ -20,7 +20,36 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  layouts:
+    footer:
+      desc_1: "The"
+      desc_2: "Tutorials by"
+      about: "About"
+      contact: "Contact"
+      news: "News"
+    header:
+        Home: "Home"
+        Help: "Help"
+        Login: "Login"
   static_pages:
+    about:
+      h1: "About"
+      desc_1: "The"
+      desc_2: "is a"
+      desc_3: "and"
+      desc_4: "to teach web development with"
+      desc_5: "This is the sample application for the tutorial."
+      book: "book"    
     contact:
       title: "Contact"
-      
+      desc_1: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      contact_page: "contact page."
+    help:
+      Help: "Help"
+      desc_1: "Get help on the Ruby on Rails Tutorial at the "
+      desc_2: "To get help on this sample app, see the "
+    home:
+      h1: "Welcome to the Sample App"
+      h2_1: "This is the home page for the "
+      h2_2: "sample application."
+      Signup: "Sign up now!"

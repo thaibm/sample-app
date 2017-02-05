@@ -1,4 +1,34 @@
 vn:
+  layouts:
+    footer:
+      desc_1: "Thực hành "
+      desc_2: "bởi "
+      about: "Giới thiệu"
+      contact: "Liên hệ"
+      news: "Tin tức"
+    header:
+        Home: "Trang chủ"
+        Help: "Trợ giúp"
+        Login: "Đăng nhập"
   static_pages:
+    about: 
+      h1: "Giới thiệu"
+      desc_1: ""
+      desc_2: "là một"
+      desc_3: "và"
+      desc_4: "dạy lập trình web với"
+      desc_5: "Đây là một ứng dụng mẫu."
+      book: "quyển sách"
     contact:
       title: "Liên hệ!"
+      desc_1: "Liên hệ với Ruby on Rails Tutorial về ứng dụng mẫu tại "
+      contact_page: "trang liên hệ."
+    help:
+      Help: "Trợ giúp"
+      desc_1: "Nhận hỗ trợ về Ruby on Rails Tutorial tại "
+      desc_2: "Nhận hỗ trợ về ứng dụng mẫu này, xem tại "
+    home:
+      h1: "Chào mừng đến vơi ứng dụng mẫu"
+      h2_1: "Đây là trang chủ "
+      h2_2: "ứng dụng mẫu."
+      Signup: "Đăng ký ngay!"

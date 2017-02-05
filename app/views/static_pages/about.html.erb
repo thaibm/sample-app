@@ -5,15 +5,15 @@
     <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
   </head>
   <body>
-    <h1>About</h1>
+    <h1><%= t".h1"%></h1>
     <p>
-      The <a href="http://www.railstutorial.org/"><em>Ruby on Rails
-      Tutorial</em></a> is a
-      <a href="http://www.railstutorial.org/book">book</a> and
+      <%= t".desc_1"%> <a href="http://www.railstutorial.org/"><em>Ruby on Rails
+      Tutorial</em></a> <%= t".desc_2"%>
+      <a href="http://www.railstutorial.org/book"><%= t".book"%></a> <%= t".desc_3"%>
       <a href="http://screencasts.railstutorial.org/">screencast series</a>
-      to teach web development with
+      <%= t".desc_4"%>
       <a href="http://rubyonrails.org/">Ruby on Rails</a>.
-      This is the sample application for the tutorial.
+      <%= t".desc_5"%>
     </p>
   </body>
 </html>
