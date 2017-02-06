@@ -1,13 +1,13 @@
 <% #provide(:title, "Home") %>
 <div class="center jumbotron">
-	<h1><%= t".h1"%></h1>
-	<h2>
-		<%= t".h2_1"%>
-		<a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-		<%= t".h2_2"%>
-	</h2>
+  <h1><%= t".h1"%></h1>
+  <h2>
+    <%= t".h2_1"%>
+    <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    <%= t".h2_2"%>
+  </h2>
 
-	<%= link_to (t".Signup").to_s, signup_path, class: "btn btn-lg btn-primary" %>
+  <%= link_to (t".Signup").to_s, signup_path, class: "btn btn-lg btn-primary" %>
 </div>
 
 <%= link_to image_tag("rails.png", alt: "Rails logo"), 'http://rubyonrails.org/' %>
