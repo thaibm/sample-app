@@ -1,4 +1,5 @@
 vn:
+
   layouts:
     footer:
       desc_1: "Thực hành "
@@ -11,7 +12,7 @@ vn:
         help: "Trợ giúp"
         login: "Đăng nhập"
   static_pages:
-    about: 
+    about:
       about: "Giới thiệu"
       title: "Ứng dụng Ruby on Rails mẫu"
       h1: "Giới thiệu"
@@ -39,4 +40,17 @@ vn:
       h1: "Chào mừng đến vơi ứng dụng mẫu"
       h2_1: "Đây là trang chủ "
       h2_2: "ứng dụng mẫu."
-      Signup: "Đăng ký ngay!"
+      signup: "Đăng ký ngay!"
+  shared:
+    _error_messages:
+      contain: "Form có "
+      error: "lỗi"
+  users:
+    new:
+      signup: "Đăng ký"
+      create_account: "Tạo tài khoản"
+      confirmation: "Xác nhận mật khẩu"
+
+  success: "Thanh cong!"
+  danger: "Khong co nguoi dung!"
+  welcome: "Chao mung ban den voi ung dung mau!"

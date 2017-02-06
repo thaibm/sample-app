@@ -44,7 +44,7 @@ en:
       desc_4: "to teach web development with"
       rubyonrails: "Ruby on Rails"
       desc_5: "This is the sample application for the tutorial."
-      book: "book"    
+      book: "book"
     contact:
       contact: "Contact"
       title: "Contact"
@@ -60,4 +60,17 @@ en:
       h1: "Welcome to the Sample App"
       h2_1: "This is the home page for the "
       h2_2: "sample application."
-      Signup: "Sign up now!"
+      signup: "Sign up now!"
+  shared:
+    error_messages:
+      contain: "The form contain "
+      error: "error"
+  users:
+      new:
+        signup: "Sign up"
+        create_account: "Create my account"
+        confirmation: "Confirmation:"
+
+  success: "Success"
+  danger: "Error!"
+  welcome: "Welcome to the Sample App!"
