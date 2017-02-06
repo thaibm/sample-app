@@ -7,26 +7,34 @@ vn:
       contact: "Liên hệ"
       news: "Tin tức"
     header:
-        Home: "Trang chủ"
-        Help: "Trợ giúp"
-        Login: "Đăng nhập"
+        home: "Trang chủ"
+        help: "Trợ giúp"
+        login: "Đăng nhập"
   static_pages:
     about: 
+      about: "Giới thiệu"
+      title: "Ứng dụng Ruby on Rails mẫu"
       h1: "Giới thiệu"
       desc_1: ""
+      rubyonrailstut: "Ruby on Rails Tutorial"
       desc_2: "là một"
       desc_3: "và"
+      screencast_series: "screencast series"
       desc_4: "dạy lập trình web với"
+      rubyonrails: "Ruby on Rails"
       desc_5: "Đây là một ứng dụng mẫu."
       book: "quyển sách"
     contact:
+      contact: "Liên hệ"
       title: "Liên hệ!"
       desc_1: "Liên hệ với Ruby on Rails Tutorial về ứng dụng mẫu tại "
       contact_page: "trang liên hệ."
     help:
-      Help: "Trợ giúp"
+      help: "Trợ giúp"
       desc_1: "Nhận hỗ trợ về Ruby on Rails Tutorial tại "
+      rths: "Rails Tutorial help section"
       desc_2: "Nhận hỗ trợ về ứng dụng mẫu này, xem tại "
+      rort: "Ruby on Rails Tutorial book"
     home:
       h1: "Chào mừng đến vơi ứng dụng mẫu"
       h2_1: "Đây là trang chủ "

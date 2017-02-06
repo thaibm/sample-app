@@ -1,18 +1,21 @@
-<% provide(:title, "About") %>
+<% provide :title, (t".about") %>
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    <title><%= yield(:title) %> | <%= t".title"%></title>
   </head>
   <body>
     <h1><%= t".h1"%></h1>
     <p>
-      <%= t".desc_1"%> <a href="http://www.railstutorial.org/"><em>Ruby on Rails
-      Tutorial</em></a> <%= t".desc_2"%>
-      <a href="http://www.railstutorial.org/book"><%= t".book"%></a> <%= t".desc_3"%>
-      <a href="http://screencasts.railstutorial.org/">screencast series</a>
+      <%= t".desc_1"%> 
+      <a href="http://www.railstutorial.org/">
+        <em><%= t".rubyonrailstut" %></em>
+      </a> <%= t".desc_2"%>
+      <a href="http://www.railstutorial.org/book"><%= t".book"%></a> 
+      <%= t".desc_3"%>
+      <a href="http://screencasts.railstutorial.org/"><%= t".screencast_series" %></a>
       <%= t".desc_4"%>
-      <a href="http://rubyonrails.org/">Ruby on Rails</a>.
+      <a href="http://rubyonrails.org/"><%= t".rubyonrails" %></a>.
       <%= t".desc_5"%>
     </p>
   </body>
