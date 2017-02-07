@@ -79,9 +79,11 @@ en:
     new:
       login: "Log in"
       signup: "Sign up now!"
+      remember: "Remember me on this computer"
     create:
       invalid: "Invalid email/password combination"
 
   success: "Success"
   danger: "Error!"
   welcome: "Welcome to the Sample App!"
+  invalid: "Invalid!"

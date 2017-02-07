@@ -59,8 +59,10 @@ vn:
     new:
       login: "Đăng nhập"
       signup: "Đăng ký ngay!"
+      remember: "Remember me on this computer"
     create:
       invalid: "Email hoặc password không đúng!"
   success: "Thanh cong!"
   danger: "Khong co nguoi dung!"
   welcome: "Chao mung ban den voi ung dung mau!"
+  invalid: "Invalid!"
