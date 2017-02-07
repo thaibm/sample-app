@@ -30,7 +30,12 @@ en:
     header:
         home: "Home"
         help: "Help"
-        login: "Login"
+        login: "Log in"
+        users: "Users"
+        account: "Account"
+        profile: "Profile"
+        settings: "Settings"
+        logout: "Log out"
   static_pages:
     about:
       about: "About"
@@ -70,6 +75,12 @@ en:
         signup: "Sign up"
         create_account: "Create my account"
         confirmation: "Confirmation:"
+  sessions:
+    new:
+      login: "Log in"
+      signup: "Sign up now!"
+    create:
+      invalid: "Invalid email/password combination"
 
   success: "Success"
   danger: "Error!"

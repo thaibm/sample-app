@@ -11,6 +11,11 @@ vn:
         home: "Trang chủ"
         help: "Trợ giúp"
         login: "Đăng nhập"
+        users: "Users"
+        account: "Account"
+        profile: "Profile"
+        settings: "Settings"
+        logout: "Log out"
   static_pages:
     about:
       about: "Giới thiệu"
@@ -50,7 +55,12 @@ vn:
       signup: "Đăng ký"
       create_account: "Tạo tài khoản"
       confirmation: "Xác nhận mật khẩu"
-
+  sessions:
+    new:
+      login: "Đăng nhập"
+      signup: "Đăng ký ngay!"
+    create:
+      invalid: "Email hoặc password không đúng!"
   success: "Thanh cong!"
   danger: "Khong co nguoi dung!"
   welcome: "Chao mung ban den voi ung dung mau!"
