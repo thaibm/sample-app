@@ -55,11 +55,20 @@ vn:
       signup: "Đăng ký"
       create_account: "Tạo tài khoản"
       confirmation: "Xác nhận mật khẩu"
+    edit:
+      title: "Edit Users"
+      update_your_profile: "Update your profile"
+      save_changes: "Save changes"
+      changes: "changes"
+      confirmation: "Confirmation"
+    index:
+        all_users: "All users"
   sessions:
     new:
       login: "Đăng nhập"
       signup: "Đăng ký ngay!"
       remember: "Remember me on this computer"
+
     create:
       invalid: "Email hoặc password không đúng!"
   success: "Thanh cong!"

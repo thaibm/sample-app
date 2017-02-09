@@ -75,6 +75,14 @@ en:
         signup: "Sign up"
         create_account: "Create my account"
         confirmation: "Confirmation:"
+      edit:
+        title: "Edit Users"
+        update_your_profile: "Update your profile"
+        save_changes: "Save changes"
+        changes: "changes"
+        confirmation: "Confirmation"
+      index:
+        all_users: "All users"
   sessions:
     new:
       login: "Log in"
@@ -87,3 +95,6 @@ en:
   danger: "Error!"
   welcome: "Welcome to the Sample App!"
   invalid: "Invalid!"
+  profile_updated: "Profile updated"
+  user_deleted: "User deleted"
+  please_log_in: "Please log in"
