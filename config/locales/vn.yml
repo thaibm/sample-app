@@ -75,3 +75,8 @@ vn:
   danger: "Khong co nguoi dung!"
   welcome: "Chao mung ban den voi ung dung mau!"
   invalid: "Invalid!"
+  profile_updated: "Profile updated"
+  user_deleted: "User deleted"
+  please_log_in: "Please log in"
+  account_not_activated: "Account not activated. Check your email for the activation link."
+  check_mail:  "Please check your email to activate your account."
