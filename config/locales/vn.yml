@@ -68,9 +68,22 @@ vn:
       login: "Đăng nhập"
       signup: "Đăng ký ngay!"
       remember: "Remember me on this computer"
-
+      forgot_password: "Forgot password?"
     create:
       invalid: "Email hoặc password không đúng!"
+  user_mailer:
+    sample_app: "Sample App"
+    welcome: "Welcome to the Sample App! Click on the link below to activate your account: "
+    activate: "Activate"
+  password_resets:
+    new:
+      forgot_password: "Forgot password"
+      submit: "Submit"
+    edit:
+      reset_password: "Reser password"
+      confirmation: "Confirmation"
+      update_password: "Update password"
+
   success: "Thanh cong!"
   danger: "Khong co nguoi dung!"
   welcome: "Chao mung ban den voi ung dung mau!"
@@ -80,3 +93,13 @@ vn:
   please_log_in: "Please log in"
   account_not_activated: "Account not activated. Check your email for the activation link."
   check_mail:  "Please check your email to activate your account."
+
+  email_sent_with_instructions: "Email sent with password reset instructions"
+  email_address_not_found: "Email address not found"
+
+  password_resets_controller.password_has_been_reset: "Password_has_been_reset"
+  cant_be_empty: "can't be empty"
+  password_reset_has_expired: "Password reset has expired."
+
+  account_activation: "Account activation"
+  password_reset: "Password reset"
