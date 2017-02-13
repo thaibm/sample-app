@@ -8,7 +8,7 @@ class Micropost < ApplicationRecord
 
   private
   def picture_size
-    if picture.size > Settings[max_size]
+    if picture.size > Settings.picture_size.megabytes
       errors.add :picture, (I18n.t ".should_be_less_than_5MB")
     end
   end

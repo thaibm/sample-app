@@ -1,2 +1,3 @@
 hours: "2.hours.ago"
-max_size: "5.megabytes"
+picture_size: 5
+show_ava_size: 30
