@@ -103,3 +103,8 @@ vn:
 
   account_activation: "Account activation"
   password_reset: "Password reset"
+
+  please_log_in: "Please log in."
+  micropost_created: "Micropost created!"
+  micropost_deleted: "Micropost deleted!"
+  should_be_less_than_5MB: "should be less than 5MB"
