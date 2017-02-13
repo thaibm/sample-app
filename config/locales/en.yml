@@ -20,6 +20,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+
   layouts:
     footer:
       desc_1: "The"
@@ -124,3 +125,9 @@ en:
 
   account_activation: "Account activation"
   password_reset: "Password reset"
+
+  please_log_in: "Please log in."
+  micropost_created: "Micropost created!"
+  micropost_deleted: "Micropost deleted!"
+  should_be_less_than_5MB: "should be less than 5MB"
+

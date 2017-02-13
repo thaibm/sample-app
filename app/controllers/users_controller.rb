@@ -12,9 +12,9 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find_by id: params[:id]
-    if @user
-      flash[:success] = I18n.t ".success"
-    else
+    @microposts = @user.microposts.paginate page: params[:page]
+
+    unless @user
       flash[:danger] = I18n.t ".danger"
       redirect_to signup_path
     end
